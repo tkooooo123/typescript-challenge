@@ -13,5 +13,10 @@
  * 輸出: 0
  */
 export function arraySum(numbers: number[]): number {
-    // 在此實現函式
+    
+    let total = 0;
+    numbers.forEach((num: number) => {
+        total += num
+    })
+    return total;
 }
